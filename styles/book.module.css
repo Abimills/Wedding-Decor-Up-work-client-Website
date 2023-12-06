@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Dosis:wght@200;300;400;500;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,900&family=Mooli&family=Nosifer&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&family=Water+Brush&display=swap");
+/* font-family: 'Caveat', cursive; */
+/* font-family: 'Dosis', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Mooli', sans-serif; */
+/* font-family: 'Nosifer', sans-serif; */
+/* font-family: 'Outfit', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Sacramento', cursive; */
+/* font-family: 'Water Brush', cursive; */
+/* #fcd5e8 */
+/* #b8cbec */
+/* #fee9f0 */
+/* #f1f3f4 */
+/* #c8e3f4 */
+/* #f26ca7; */
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+  background: radial-gradient(circle at 50% 50%, #b8cbec 0%, #d8deea 40%);
+}
+
+.bookHeader {
+  font-size: 3.5rem;
+  text-align: center;
+  margin: 2rem;
+  margin-bottom: 4rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  /* font-family: "Sacramento", cursive; */
+}
+
+.bookContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.leftBook {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.rightBook {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.name {
+  width: 100%;
+  padding: 15px;
+  outline: none;
+  border: 1px solid #b8cbec;
+}
+.selection {
+  width: 100%;
+  padding: 15px;
+  outline: none;
+  border: 1px solid #b8cbec;
+}
+.eventSelector {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.dateSelection {
+  width: 685px;
+  padding: 15px;
+  outline: none;
+  border: 1px solid #b8cbec;
+}
+.textarea {
+  width: 100%;
+  padding: 15px;
+  outline: none;
+  border: 1px solid #b8cbec;
+}
+
+.label {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 0.1rem;
+  font-size: 0.9rem;
+  color: rgb(29, 28, 28);
+  font-family: "Roboto", sans-serif;
+}
+
+.bookBtnContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0;
+}
+.bookBtn {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.1rem;
+  color: white;
+  border-radius: 3px;
+  outline: none;
+
+  background-color: #b8cbec;
+  border: 1px solid #b8cbec;
+  font-family: "Dosis", sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.bookBtn:hover {
+  background-color: orange;
+  border: 1px solid orange;
+  color: black;
+}

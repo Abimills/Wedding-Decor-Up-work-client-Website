@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Dosis:wght@200;300;400;500;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,900&family=Mooli&family=Nosifer&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&family=Water+Brush&display=swap");
+/* font-family: 'Caveat', cursive; */
+/* font-family: 'Dosis', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Mooli', sans-serif; */
+/* font-family: 'Nosifer', sans-serif; */
+/* font-family: 'Outfit', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Sacramento', cursive; */
+/* font-family: 'Water Brush', cursive; */
+.landingPage {
+  width: 100%;
+  /* padding: 10px; */
+  margin-bottom: 0rem;
+  flex-wrap: wrap;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: radial-gradient(circle at 50% 50%, #b8cbec 0%, #d8deea 40%);
+}
+
+.mediaSide {
+  width: 200px;
+  height: 550px;
+  background-image: url("/side-color.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 6rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 3rem;
+  flex-direction: column;
+}
+.mediaSide * {
+  color: #b8cbec;
+  font-size: 1.2rem;
+  margin-left: 2.4rem;
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+}
+.mediaSide *:hover {
+  color: orange;
+}
+.boxing {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  top: 60px;
+  right: 0;
+  position: absolute;
+}
+.kidding {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.rightSide {
+  width: 40%;
+
+  margin-top: 7rem;
+}
+
+.leftSide {
+  width: 40%;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.beautyImage {
+  width: 100%;
+  height: 450px;
+  position: absolute;
+  object-fit: contain;
+  margin-top: -3rem;
+  transition: all 0.4s ease-in-out;
+}
+.imgContainer {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+}
+.heroHeader {
+  margin: 2rem 0;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  font-family: "Dosis", sans-serif;
+}
+.heroPara {
+  color: rgb(107, 106, 106);
+  font-size: 0.9rem;
+  margin: 0 0 2rem 0;
+  max-width: 80%;
+  font-family: "Caveat", cursive;
+  font-family: "Outfit", sans-serif;
+}
+/* #fcd5e8 */
+/* #b8cbec */
+/* #fee9f0 */
+/* #f1f3f4 */
+/* #c8e3f4 */
+/* #f26ca7; */
+.exploreBtn {
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #b8cbec;
+  background-color: #b8cbec;
+  color: white;
+  font-family: "Outfit", sans-serif;
+
+  transition: all 0.5s ease-in-out;
+}
+.exploreBtn:hover {
+  transition: all 0.5s ease-in-out;
+  border: 1px solid #b8cbec;
+  background-color: white;
+  color: #b8cbec;
+}
+.activeContainer {
+  width: 80%;
+  padding: 10px;
+  margin-top: -2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+}
+.active {
+  content: none;
+  width: 20px;
+  height: 6px;
+  border-radius: 30px;
+  background-color: black;
+  transition: all 0.5s ease-in-out;
+}
+.passive {
+  content: none;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 1000px) {
+  .landingPage {
+    width: 100%;
+    /* padding: 10px; */
+    margin-bottom: 6rem;
+    flex-wrap: wrap;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .leftSide {
+    width: 70%;
+    margin-top: 2rem;
+    margin-left: 0rem;
+  }
+  .mediaSide {
+    width: 30%;
+    height: 600px;
+    background-image: url("/side-color.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 6rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3rem;
+    flex-direction: column;
+  }
+  .rightSide {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .icons {
+    display: none;
+  }
+  .mediaSide {
+    width: 0%;
+    display: none;
+  }
+  .leftSide {
+    width: 100%;
+    margin-top: 2rem;
+    /* margin: 0 auto; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .heroHeader {
+    margin: 2rem 0;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    margin-top: 4rem;
+    text-align: center;
+
+    font-family: "Dosis", sans-serif;
+  }
+  .rightSide {
+    width: 90%;
+    /* display: block; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding: 10px;
+  }
+  .imgContainer {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: -3rem;
+    transition: all 0.4s ease-in-out;
+    /* background-color: red; */
+  }
+  .activeContainer {
+    margin-top: -5rem;
+  }
+  .beautyImage {
+    width: 80%;
+    margin-left: 2rem;
+    height: 450px;
+    position: inherit;
+    object-fit: contain;
+    margin-top: 0rem;
+    transition: all 0.4s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .rightSide {
+    width: 95%;
+    /* display: block; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -1rem;
+    padding: 10px;
+  }
+  .heroHeader {
+    padding: 5px;
+    font-size: 2rem;
+    margin-top: 4rem;
+    max-width: 90%;
+  }
+  .imgContainer {
+    /* background-color: red; */
+    margin-left: -5rem;
+  }
+  .beautyImage {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .activeContainer {
+    margin-top: -8rem;
+  }
+  .beautyImage {
+    width: 100%;
+  }
+  .heroHeader {
+    font-size: 1.8rem;
+    margin-top: 5rem;
+  }
+  .heroPara {
+    color: rgb(107, 106, 106);
+    font-size: 0.8rem;
+    margin: 0 0 2rem 0;
+    max-width: 80%;
+    font-family: "Caveat", cursive;
+    font-family: "Outfit", sans-serif;
+  }
+}
+@media screen and (max-width: 300px) {
+  .activeContainer {
+    margin-top: -10rem;
+  }
+  .beautyImage {
+    width: 100%;
+  }
+  .imgContainer {
+    margin-left: -6rem;
+  }
+  .heroHeader {
+    font-size: 1.5rem;
+    margin-top: 5rem;
+  }
+}

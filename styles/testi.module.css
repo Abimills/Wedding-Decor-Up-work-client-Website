@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Dosis:wght@200;300;400;500;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,900&family=Mooli&family=Nosifer&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&family=Water+Brush&display=swap");
+/* font-family: 'Caveat', cursive; */
+/* font-family: 'Dosis', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Mooli', sans-serif; */
+/* font-family: 'Nosifer', sans-serif; */
+/* font-family: 'Outfit', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Sacramento', cursive; */
+/* font-family: 'Water Brush', cursive; */
+/* #fcd5e8 */
+/* #b8cbec */
+/* #fee9f0 */
+/* #f1f3f4 */
+/* #c8e3f4 */
+/* #f26ca7; */
+
+.testimonialsContainer {
+  width: 100%;
+  padding: 10px;
+}
+.header {
+  text-align: center;
+  margin: 2rem 0;
+  letter-spacing: 3px;
+  font-size: 2rem;
+  font-family: "Outfit", sans-serif;
+}
+.testimonials {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+}
+.testimonial {
+  background: white;
+  width: 400px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-around;
+}
+.testiImages {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  background-color: orange;
+  border-radius: 50%;
+}
+.testiText {
+  font-family: "Outfit", sans-serif;
+  color: #7a8dad;
+}
+
+.timeContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+}
+.commentBtnContainer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+.commentBtn {
+  padding: 20px;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  background-color: orange;
+  border: 1px solid orange;
+  text-transform: capitalize;
+  border-radius: 50px;
+  color: white;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  font-family: "Roboto", sans-serif;
+}
+.commentBtn:hover {
+  border: 1px solid white;
+}
+
+@media screen and (max-width: 480px) {
+  .commentBtn {
+    padding: 15px;
+
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: orange;
+    font-size: 0.8rem;
+    border: 1px solid orange;
+    text-transform: capitalize;
+    border-radius: 50px;
+    color: white;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+  }
+}

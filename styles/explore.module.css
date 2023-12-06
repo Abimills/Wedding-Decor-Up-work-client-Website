@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Dosis:wght@200;300;400;500;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,900&family=Mooli&family=Nosifer&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&family=Water+Brush&display=swap");
+/* font-family: 'Caveat', cursive; */
+/* font-family: 'Dosis', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Mooli', sans-serif; */
+/* font-family: 'Nosifer', sans-serif; */
+/* font-family: 'Outfit', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Sacramento', cursive; */
+/* font-family: 'Water Brush', cursive; */
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  padding: 10px;
+
+  background: radial-gradient(circle at 50% 50%, #b8cbec 0%, #d8deea 40%);
+}
+.content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  /* gap: rem; */
+}
+.left {
+  width: 60%;
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #92a5c6;
+  padding: 13px;
+  border-radius: 10px;
+}
+.leftSide {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+
+  /* padding: 10px; */
+  /* margin: 2rem 0; */
+}
+
+.header {
+  font-size: 2.2rem;
+  width: 100%;
+  margin-top: 1rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-align: center;
+  font-family: "Dosis", sans-serif;
+}
+.para {
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  color: gray;
+  width: 100%;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: -2rem;
+  font-family: "Dosis", sans-serif;
+  text-transform: capitalize;
+}
+
+.bookBtn {
+  padding: 15px 45px;
+  border-radius: 40px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.callBtn {
+  padding: 15px 85px;
+  border-radius: 40px;
+  border: 1px solid orange;
+  background-color: orange;
+  color: white;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.call {
+  color: white;
+
+  font-size: 1.1rem;
+  border-radius: 50%;
+}
+.bookBtn:hover {
+  background-color: white;
+  color: black;
+}
+.imgContainer {
+  margin-top: -0.5rem;
+}
+
+.clients {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+  background-color: orange;
+  margin: 0 -0.4rem;
+  border-radius: 50%;
+}
+.btnContainer {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0 0 0;
+}
+
+.rightSide {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* gap: 2rem; */
+  gap: 0.5rem;
+}
+
+.pics {
+  width: 50%;
+  height: 250px;
+  object-fit: cover;
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .main {
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    margin-bottom: 5rem;
+    background: radial-gradient(circle at 50% 50%, #b8cbec 0%, #d8deea 40%);
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .content {
+    width: 100%;
+    min-height: max-content;
+
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 14rem;
+    /* gap: rem; */
+  }
+  .left {
+    width: 100%;
+    min-height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #92a5c6;
+    padding: 13px;
+    border-radius: 10px;
+  }
+
+  .rightSide {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* gap: 2rem; */
+    gap: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .header {
+    font-size: 1.6rem;
+    width: 100%;
+    margin-top: 1rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: "Dosis", sans-serif;
+  }
+}

@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Dosis:wght@200;300;400;500;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,900&family=Mooli&family=Nosifer&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&family=Water+Brush&display=swap");
+/* font-family: 'Caveat', cursive; */
+/* font-family: 'Dosis', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Mooli', sans-serif; */
+/* font-family: 'Nosifer', sans-serif; */
+/* font-family: 'Outfit', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Sacramento', cursive; */
+/* font-family: 'Water Brush', cursive; */
+/* #fcd5e8 */
+/* #b8cbec */
+/* #fee9f0 */
+/* #f1f3f4 */
+/* #c8e3f4 */
+/* #f26ca7; */
+.workContainer {
+  width: 100%;
+  /* background-color: white; */
+  margin-top: 3rem;
+  /* margin: 1rem; */
+  padding: 20px;
+  margin-bottom: 3rem;
+  /* background: radial-gradient(circle at 50% 50%, #b8cbec 0%, #dee7f7 40%); */
+}
+.workHeader {
+  font-size: 2.5rem;
+  color: black;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  letter-spacing: 7px;
+  margin: 1rem;
+  margin-bottom: 3rem;
+}
+.workPara {
+  font-size: 0.9rem;
+  color: black;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  /* font-weight: 100; */
+  letter-spacing: 2px;
+  margin-bottom: 6rem;
+  margin: 2rem 3rem;
+}
+.card {
+  width: 30%;
+  height: 400px;
+  background-image: url("/amazing.jpg");
+  background-size: contain;
+  border: 1px solid #b8cbec;
+  /* padding: 30px; */
+  display: flex;
+  border-radius: 3px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.cards {
+  width: 100%;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+.itemImages {
+  width: 40%;
+  height: 380px;
+  object-fit: contain;
+  /* rotate: 90deg; */
+}
+
+.innerCard {
+  width: 30%;
+  height: 100%;
+  /* margin: 0 right; */
+  display: flex;
+  padding: 10px;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  background: #b8cbec;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.card3 {
+  width: 30%;
+  height: 400px;
+  background-image: url("/young.jpg");
+  background-size: contain;
+  border: 1px solid #b8cbec;
+  /* padding: 30px; */
+  display: flex;
+  border-radius: 3px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.cardInner {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(106, 121, 130, 0.5);
+  backdrop-filter: blur(15px);
+  /* border-radius: 30px; */
+  transition: all 0.3s ease-in-out;
+}
+
+.cardTitle {
+  color: white;
+  /* width: 100px;
+  height: 50px; */
+
+  margin: 1rem;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  padding: 10px;
+  /* font-weight: 200; */
+  font-family: "Roboto", sans-serif;
+}
+.cardParagraph {
+  color: white;
+
+  margin: 2rem;
+  font-size: 1rem;
+  margin-bottom: 4rem;
+  /* font-weight: 200; */
+  width: 50%;
+  font-weight: 300;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-family: "Outfit", sans-serif;
+}
+.workCardContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.cardBtn {
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+
+  border-radius: 5px;
+  border: 1px solid #b8cbec;
+  color: #b8cbec;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.cardBtn:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+@media screen and (max-width: 1000px) {
+  .cardParagraph {
+    color: white;
+
+    margin: 0rem;
+    font-size: 0.8rem;
+    margin-bottom: 4rem;
+    /* font-weight: 200; */
+    width: 90%;
+    text-align: center;
+    font-weight: 300;
+  }
+  .innerCard {
+    width: 40%;
+    height: 100%;
+    /* margin: 0 right; */
+    display: flex;
+    padding: 10px;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    background: #b8cbec;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .innerCard {
+    width: 60%;
+    height: 100%;
+    /* margin: 0 right; */
+    display: flex;
+    padding: 10px;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    background: #b8cbec;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .cardTitle {
+    margin: 0rem;
+    font-size: 2rem;
+
+    padding: 10px;
+  }
+  .cardParagraph {
+    font-size: 0.74rem;
+    margin-bottom: 4rem;
+    /* font-weight: 200; */
+    width: 90%;
+    text-align: center;
+    font-weight: 300;
+  }
+  .cardBtn {
+    width: 85%;
+    height: 40px;
+    padding: 10px;
+
+    border-radius: 5px;
+    border: 1px solid #b8cbec;
+    color: #b8cbec;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  .workHeader {
+    font-size: 2.2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin: 0rem;
+    margin-bottom: 3rem;
+  }
+  .workPara {
+    font-size: 0.8rem;
+    width: 100%;
+    color: black;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 6rem;
+    margin: 2rem 0;
+  }
+}

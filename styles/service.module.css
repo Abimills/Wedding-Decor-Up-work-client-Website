@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Dosis:wght@200;300;400;500;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,900&family=Mooli&family=Nosifer&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&family=Water+Brush&display=swap");
+/* font-family: 'Caveat', cursive; */
+/* font-family: 'Dosis', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Mooli', sans-serif; */
+/* font-family: 'Nosifer', sans-serif; */
+/* font-family: 'Outfit', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Sacramento', cursive; */
+/* font-family: 'Water Brush', cursive; */
+.main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* gap: 3rem; */
+  background: radial-gradient(circle at 50% 50%, #cf94ae 0%, #d8deea 40%);
+}
+.serviceContainer {
+  width: 100%;
+  min-height: 100vh;
+  background: radial-gradient(circle at 50% 50%, #cf94ae 0%, #d8deea 40%);
+}
+.ring {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  text-align: center;
+  margin: 0 auto;
+}
+/* .grad {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  text-align: left;
+  margin-left: -6rem;
+  rotate: 90deg;
+} */
+.grad {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  /* text-align: left; */
+  margin-right: -12rem;
+  rotate: 270deg;
+}
+.cardy {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardImg {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.serviceHeader {
+  font-size: 4.5rem;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 5px;
+  color: black;
+  text-align: center;
+  margin: 4rem;
+  width: 100%;
+  color: #943c62;
+}
+.serviceCard {
+  width: 400px;
+  border: 1px solid #943c62;
+  border-radius: 10px;
+  padding: 10px;
+}
+.paraService {
+  font-family: "Lato", sans-serif;
+  font-size: 0.9rem;
+}
+.btnContianer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.explore {
+  font-size: 0.9rem;
+  padding: 10px 40px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 30px;
+  border: 1px solid #943c62;
+  background-color: #943c62;
+  margin: 1rem;
+  color: white;
+  transition: all 0.4s ease-in;
+  cursor: pointer;
+}
+.explore:hover {
+  background-color: white;
+  color: #943c62;
+}
+.cardHeader {
+  font-family: "Sacramento", cursive;
+  font-size: 2rem;
+  color: #ae5066;
+}
+.serviceCardsContainer {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .serviceCardsContainer {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .serviceCardsContainer {
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 860px) {
+  .serviceCardsContainer {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .serviceCard {
+    width: 40%;
+    border: 1px solid #943c62;
+    border-radius: 10px;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .serviceCardsContainer {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .serviceCard {
+    width: 80%;
+    border: 1px solid #943c62;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .serviceHeader {
+    font-size: 2.5rem;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 5px;
+    color: black;
+    text-align: center;
+    margin: 4rem 0;
+    width: 100%;
+    color: #943c62;
+  }
+}
+@media screen and (max-width: 400px) {
+  .serviceCard {
+    width: 90%;
+    border: 1px solid #943c62;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .explore {
+    font-size: 0.8rem;
+    padding: 10px 30px;
+  }
+}
