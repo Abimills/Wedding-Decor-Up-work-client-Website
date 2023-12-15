@@ -56,8 +56,13 @@ const Navbar = () => {
       <div className={styles.leftSideNav}>
         {/* <div className={styles.topMenubarLine}></div>
         <div className={styles.bottomMenubarLine}></div> */}
-        <IoMdCall className={styles.call} />
-        <p className={styles.phone}>+25198753632</p>
+        <IoMdCall
+          className={styles.call}
+          onClick={() => router.push("/contact")}
+        />
+        <p className={styles.phone} onClick={() => router.push("/contact")}>
+          +25198753632
+        </p>
 
         <div className={styles.smallDevice}>
           {hideNav ? (

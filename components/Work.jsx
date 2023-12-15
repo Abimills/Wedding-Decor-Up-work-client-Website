@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import styles from "../styles/work.module.css";
+import { useRouter } from "next/navigation";
 
 const workData = [
   {
@@ -27,6 +28,7 @@ const workData = [
 ];
 const Work = () => {
   const [isHovered, setIsHovered] = useState(false);
+  const router = useRouter();
   const containerStyle = {
     opacity: isHovered ? 0 : 1,
     transition: "opacity 0.3s ease", // Add a smooth transition effect
@@ -46,7 +48,11 @@ const Work = () => {
               <div className={styles.innerCard}>
                 <h3 className={styles.cardTitle}>{item.title}</h3>
                 <p className={styles.cardParagraph}>{item.description}</p>
-                <button className={styles.cardBtn} style={{ opacity: 1 }}>
+                <button
+                  className={styles.cardBtn}
+                  style={{ opacity: 1 }}
+                  onClick={() => router.push("/explore")}
+                >
                   Order
                 </button>
               </div>
