@@ -35,10 +35,10 @@ const Book = () => {
             <select
               id="event"
               className={styles.selection}
-              value={selectedEvent}
+              value={selectedPlace}
               onChange={(e) => setSelectedPlace(e.target.value)}
             >
-              <option value="">Select a Place</option>
+              <option value="">* Select a Place</option>
               <option value="home">Home</option>
               <option value="hotel">Hotel</option>
               <option value="audium">Audium</option>
@@ -52,24 +52,26 @@ const Book = () => {
               value={selectedEvent}
               onChange={(e) => setSelectedEvent(e.target.value)}
             >
-              <option value="">Select an Event</option>
+              <option value="">* Select an Event</option>
               <option value="birthday">Birthday</option>
               <option value="wedding">Wedding</option>
               <option value="graduation">Graduation Party</option>
             </select>
           </div>
           {/* <label className={styles.label}>Select Date:</label> */}
-          <DatePicker
-            className={styles.dateSelection}
-            selected={selectedDate}
-            onChange={handleDateChange}
-            placeholderText="* Pick a Date"
-          />
+          <div className={styles.datePickContainer}>
+            <DatePicker
+              className={styles.dateSelection}
+              selected={selectedDate}
+              onChange={handleDateChange}
+              placeholderText="* Pick a Date"
+            />
+          </div>
 
           <input
             type="text"
             className={styles.textarea}
-            placeholder="* any important notes for us"
+            placeholder="Any important notes for us"
           />
         </div>
       </form>

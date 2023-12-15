@@ -18,7 +18,7 @@
 .main {
   width: 100%;
   min-height: 100vh;
-  padding: 20px;
+  /* padding: 20px; */
   background: radial-gradient(circle at 50% 50%, #b8cbec 0%, #d8deea 40%);
 }
 
@@ -124,4 +124,43 @@
   background-color: orange;
   border: 1px solid orange;
   color: black;
+}
+
+@media screen and (max-width: 800px) {
+  .leftBook {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .bookBtnContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0;
+  }
+  .main {
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px 0;
+    background: radial-gradient(circle at 50% 50%, #b8cbec 0%, #d8deea 40%);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .bookHeader {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+    /* font-family: "Sacramento", cursive; */
+  }
+  .name {
+    font-size: 0.7rem;
+  }
 }
