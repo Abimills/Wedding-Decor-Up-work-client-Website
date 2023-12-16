@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navContainer}>
       <div className={styles.rightSideNav}>
-        <h3 className={styles.navigationLogo}>Qendel</h3>
+        <h3 className={styles.navigationLogo}  onClick={() => router.push("/")}>Qendel</h3>
         <ul
           className={
             hideNav ? styles.navigationContainer : styles.hiddenNavigation

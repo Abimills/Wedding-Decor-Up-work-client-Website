@@ -5,18 +5,18 @@ import simple from "../public/simple.png";
 export const data = [
   {
     id: 1,
-    img: "/simple.png",
+    img: "/balons.png",
   },
   {
     id: 2,
-    img: "/dark.png",
+    img: "/simple.png",
   },
   {
     id: 3,
-    img: "/lighter.png",
+    img: "/dark.png",
   },
   {
     id: 4,
-    img: "/balons.png",
+    img: "/lighter.png",
   },
 ];

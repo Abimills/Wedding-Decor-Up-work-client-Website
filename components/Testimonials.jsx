@@ -15,7 +15,11 @@ const Testimonials = () => {
   useEffect(() => {
     const fetchData = async () => {
       const res = await axios.get(" http://localhost:3000/api/comment");
-      setData(res.data);
+      setData(
+        res.data?.comments
+          ?.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
+          .slice(0, 6)
+      );
     };
     fetchData();
   }, []);
@@ -26,7 +30,6 @@ const Testimonials = () => {
       year: "numeric",
       month: "long",
       day: "numeric",
-     
     });
     return formattedDateString;
   };
@@ -34,7 +37,7 @@ const Testimonials = () => {
     <div className={styles.testimonialsContainer}>
       <h1 className={styles.header}>Testimonials</h1>
       <div className={styles.testimonials}>
-        {data?.comments?.map((comment) => {
+        {data?.map((comment) => {
           return (
             <div className={styles.testimonial}>
               <img

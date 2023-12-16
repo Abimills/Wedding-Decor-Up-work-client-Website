@@ -19,10 +19,11 @@ const Owner = () => {
           <p className={styles.rahelsmall}>party designer</p>
           <h2 className={styles.rahel}>I am Rahel </h2>
           <p className={styles.rahelPara}>
-            You call us or send us a message from our website. you can also send
-            a text on our whatsapp page or instagram you call us or send us a
-            message from our website. you can also send a text on our whatsapp
-            page or instagram
+            Hello everyone, welcome to Qendel Decor.I am the owner and I love
+            making people happy. I have been a designer for almost a decade. I
+            Enjoy decoring events for different occasions. I love designing
+            wedding ,birthdays and graduations party. want to have a one one one
+            talk with me contact me here.
           </p>
           <button
             className={styles.contactRahel}
@@ -32,9 +33,9 @@ const Owner = () => {
           </button>
           {show && (
             <div className={styles.iconsContainer}>
-              <FaFacebook />
-              <FaTelegram />
-              <FaInstagram />
+              <FaFacebook className={styles.rakiIcon} />
+              <FaTelegram className={styles.rakiIcon} />
+              <FaInstagram className={styles.rakiIcon} />
             </div>
           )}
         </div>

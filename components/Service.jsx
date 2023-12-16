@@ -7,28 +7,28 @@ const serviceData = [
     title: "Weddings",
     img: "/ring.png",
     description:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiaducimus eum quaerat nulla consequuntur eveniet voluptas, ab quodearum libero.",
+      " Transform your wedding dreams into reality with our party decor website. Discover enchanting and elegant decorations that will make your special day truly magical.",
   },
   {
     id: 2,
     title: "Birthday",
     img: "/birth.png",
     description:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiaducimus eum quaerat nulla consequuntur eveniet voluptas, ab quodearum libero.",
+      " Elevate your birthday celebrations with our party decor website. Explore vibrant and imaginative decorations to turn your festivities into unforgettable moments.",
   },
   {
     id: 3,
     title: "Graduation",
     img: "/grad.png",
     description:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiaducimus eum quaerat nulla consequuntur eveniet voluptas, ab quodearum libero.",
+      " Deck out your graduation day in style! Our decoration team is ready to turn your achievement into a visually stunning celebration. Let us bring the sparkle to your success story!",
   },
   {
     id: 4,
     title: "Engagement",
     img: "/coupies.png",
     description:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiaducimus eum quaerat nulla consequuntur eveniet voluptas, ab quodearum libero.",
+      "Engage in elegance with our curated decorations! we add sophistication to your engagement celebration. Create memories that sparkle as bright as your new chapter together",
   },
 ];
 const Service = () => {

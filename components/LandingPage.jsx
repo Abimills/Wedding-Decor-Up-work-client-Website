@@ -58,14 +58,15 @@ const LandingPage = () => {
       </div>
       <div className={styles.leftSide}>
         <h1 className={styles.heroHeader}>
-          Find the best party & ocations decorations by qendel decors
+          Find the best party occasions decor by qendel decors
         </h1>
         <p className={styles.heroPara}>
-          Infusing every occasion with curated decorations, our passion turns
-          ordinary spaces into unforgettable venues, crafting memories that last
-          a lifetime. Infusing every occasion with curated decorations, our
-          passion turns ordinary spaces into unforgettable venues, crafting
-          memories that last a lifetime.
+          Book your party at Qendel party decoration for all of your occasions.
+          Infusing every occasion with curated decorations, We can do home ,
+          hotel and venue.We are flexible and can decorate your
+          birthdays,wedding,graduation,Engagement and many more occasions.
+          contact us for a beautiful and professionally designed party. 
+       
         </p>
         <button
           className={styles.exploreBtn}

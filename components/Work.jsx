@@ -7,23 +7,23 @@ const workData = [
   {
     id: 1,
     title: "Home",
-    img: "/brust.png",
+    img: "/pegy.png",
     description:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiaducimus eum quaerat nulla consequuntur eveniet voluptas, ab quodearum libero.",
+      "Transform your home into a personalized party haven! Our dedicated team is passionate about bringing your unique vision to life.",
   },
   {
     id: 2,
     title: "Hotel",
-    img: "/gifts.png",
+    img: "/hotie.png",
     description:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiaducimus eum quaerat nulla consequuntur eveniet voluptas, ab quodearum libero.",
+      "Elevate your hotel events with our expert touch! Our team specializes in tailor-made decorations, ensuring every gathering in your hotel is a memorable experience",
   },
   {
     id: 3,
-    title: "audium",
+    title: "Venues",
     img: "/wedding.png",
     description:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiaducimus eum quaerat nulla consequuntur eveniet voluptas, ab quodearum libero.",
+      "Transform venues into extraordinary spaces! Our decoration expertise brings any event to life, ensuring your chosen venue is adorned with unique and captivating elements",
   },
 ];
 const Work = () => {
@@ -51,7 +51,7 @@ const Work = () => {
                 <button
                   className={styles.cardBtn}
                   style={{ opacity: 1 }}
-                  onClick={() => router.push("/explore")}
+                  onClick={() => router.push("/book")}
                 >
                   Order
                 </button>

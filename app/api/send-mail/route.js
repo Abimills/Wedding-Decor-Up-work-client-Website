@@ -4,7 +4,7 @@ import { NextResponse } from "next/server";
 export async function POST(req) {
   const { email, subject, message } = await req.json();
   await connectMongoDB();
-  const newComment = await Comments.create({ name, comment, img, email });
+  // const newComment = await Comments.create({ name, comment, img, email });
 
   const transporter = nodemailer.createTransport({
     service: "gmail",
