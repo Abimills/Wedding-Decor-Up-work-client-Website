@@ -1,0 +1,26 @@
+.loadingContainer {
+  width: 100%;
+  /* padding: 10px; */
+  margin-bottom: 0rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  /* background: radial-gradient(circle at 50% 50%, #b8cbec 0%, #d8deea 40%);
+   */
+}
+.innerLoading {
+  width: 100%;
+  
+  /* padding: 10px; */
+  margin-bottom: 0rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  /* background: radial-gradient(circle at 50% 50%, #b8cbec 0%, #d8deea 40%);
+   */
+}

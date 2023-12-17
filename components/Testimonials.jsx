@@ -66,7 +66,7 @@ const Testimonials = () => {
           className={styles.commentBtn}
           onClick={() => router.push("/comment")}
         >
-          Give a comment <BsFillEmojiSmileUpsideDownFill />
+          Give us a comment <BsFillEmojiSmileUpsideDownFill />
         </button>
       </div>
     </div>

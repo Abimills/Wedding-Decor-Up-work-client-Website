@@ -7,17 +7,18 @@ import Work from "@/components/Work";
 import Owner from "@/components/Owner";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
+import Loading from "./loading";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Navbar />
-      <LandingPage />
-      <Service />
-      <Work />
-      <Owner />
-      <Testimonials />
-      <Footer />
+      <Navbar fallback={<Loading />} />
+      <LandingPage fallback={<Loading />} />
+      <Service fallback={<Loading />} />
+      <Work fallback={<Loading />} />
+      <Owner fallback={<Loading />} />
+      <Testimonials fallback={<Loading />} />
+      <Footer fallback={<Loading />} />
     </main>
   );
 }

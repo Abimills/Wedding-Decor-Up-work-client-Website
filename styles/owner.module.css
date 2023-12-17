@@ -82,7 +82,6 @@
 }
 .rakiIcon:hover {
   color: #b8cbec;
-
 }
 .rahel {
   font-size: 8rem;
@@ -175,7 +174,7 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
-    z-index: 0;
+    /* z-index: 0; */
     display: block;
   }
   .textContainer {

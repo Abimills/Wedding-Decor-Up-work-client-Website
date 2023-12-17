@@ -22,7 +22,7 @@ const Owner = () => {
             Hello everyone, welcome to Qendel Decor.I am the owner and I love
             making people happy. I have been a designer for almost a decade. I
             Enjoy decoring events for different occasions. I love designing
-            wedding ,birthdays and graduations party. want to have a one one one
+            wedding ,birthdays and graduations party. if you want to have a 
             talk with me contact me here.
           </p>
           <button

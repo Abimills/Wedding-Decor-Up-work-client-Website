@@ -24,12 +24,12 @@ const Footer = () => {
         <div className={styles.partContainer}>
           <p onClick={() => router.push("/")}>Home</p>
           <p onClick={() => router.push("/about")}>About</p>
-          <p onClick={() => router.push("/service")}>Service</p>
+          <p onClick={() => router.push("/services")}>Service</p>
         </div>
         <div className={styles.partContainer}>
           <p onClick={() => router.push("/explore")}>Hotels</p>
           <p onClick={() => router.push("/explore")}>House</p>
-          <p onClick={() => router.push("/explore")}>Audiom</p>
+          <p onClick={() => router.push("/explore")}>Venue</p>
         </div>
       </div>
       <div className={styles.line}></div>

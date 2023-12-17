@@ -17,7 +17,15 @@ const Navbar = () => {
   return (
     <nav className={styles.navContainer}>
       <div className={styles.rightSideNav}>
-        <h3 className={styles.navigationLogo}  onClick={() => router.push("/")}>Qendel</h3>
+        <h3
+          className={styles.navigationLogo}
+          onClick={() => {
+            router.push("/");
+            setHideNav(false);
+          }}
+        >
+          Qendel
+        </h3>
         <ul
           className={
             hideNav ? styles.navigationContainer : styles.hiddenNavigation
@@ -25,21 +33,30 @@ const Navbar = () => {
         >
           <li
             className={styles.navigationText}
-            onClick={() => router.push("/")}
+            onClick={() => {
+              router.push("/");
+              setHideNav(false);
+            }}
           >
             <AiFillHome className={styles.navIcons} />
             Home
           </li>
           <li
             className={styles.navigationText}
-            onClick={() => router.push("/about")}
+            onClick={() => {
+              router.push("/about");
+              setHideNav(false);
+            }}
           >
             <IoPeople className={styles.navIcons} />
             About
           </li>
           <li
             className={styles.navigationText}
-            onClick={() => router.push("/services")}
+            onClick={() => {
+              router.push("/services");
+              setHideNav(false);
+            }}
           >
             <FaServicestack className={styles.navIcons} />
             Services
@@ -61,7 +78,7 @@ const Navbar = () => {
           onClick={() => router.push("/contact")}
         />
         <p className={styles.phone} onClick={() => router.push("/contact")}>
-          +25198753632
+          0970722734
         </p>
 
         <div className={styles.smallDevice}>

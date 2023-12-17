@@ -1,5 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
+import { motion } from "framer-motion";
 import styles from "../styles/service.module.css";
 const serviceData = [
   {
@@ -35,15 +36,51 @@ const Service = () => {
   const router = useRouter();
   return (
     <div className={styles.serviceContainer}>
-      <h1 className={styles.serviceHeader}>Our Services</h1>
+      <motion.h1
+        className={styles.serviceHeader}
+        variants={{
+          hidden: { opacity: 0, y: -100, x: 0 },
+          enter: { opacity: 1, y: 0, x: 0 },
+        }}
+        initial="hidden"
+        animate="enter"
+        // transition={{ type: "linear" }}
+        // initial="hidden"
+        // animate="visible"
+        transition={{
+          type: "spring", // You can choose a different transition type
+          stiffness: 30, // Adjust the stiffness
+          // damping: 20, // Adjust the damping
+          delay: 0.1,
+        }}
+      >
+        Our Services
+      </motion.h1>
       <div className={styles.serviceCardsContainer}>
         {serviceData.map((item) => {
           return (
             <div className={styles.serviceCard} key={item?.id}>
-              <div className={styles.cardImg}>
+              <motion.div
+                className={styles.cardImg}
+                variants={{
+                  hidden: { opacity: 0, y: 100, x: 0 },
+                  enter: { opacity: 1, y: 0, x: 0 },
+                }}
+                initial="hidden"
+                animate="enter"
+                // transition={{ type: "linear" }}
+                // initial="hidden"
+                // animate="visible"
+                transition={{
+                  type: "spring", // You can choose a different transition type
+                  stiffness: 30, // Adjust the stiffness
+                  // damping: 20, // Adjust the damping
+                  delay: 0.1,
+                }}
+              >
                 <img src={item?.img} className={styles.ring} alt="" />
                 <h3 className={styles.cardHeader}>{item.title}</h3>
-              </div>
+              </motion.div>
               <p className={styles.paraService}>{item?.description}</p>
               <div className={styles.btnContianer}>
                 <button

@@ -19,7 +19,9 @@
   justify-content: space-between;
   background: radial-gradient(circle at 50% 50%, #b8cbec 0%, #d8deea 40%);
 }
-
+.party {
+  /* color:orange; */
+}
 .mediaSide {
   width: 200px;
   height: 550px;
@@ -73,6 +75,7 @@
   position: absolute;
   object-fit: contain;
   margin-top: -3rem;
+
   transition: all 0.4s ease-in-out;
 }
 .imgContainer {
@@ -155,6 +158,7 @@
     flex-wrap: wrap;
     overflow: hidden;
     display: flex;
+
     align-items: center;
     justify-content: flex-start;
   }

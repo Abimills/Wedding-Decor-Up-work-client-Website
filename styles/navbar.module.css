@@ -138,6 +138,7 @@
     /* background-color: white; */
     position: fixed;
     top: 0;
+    z-index: 3;
     background-color: rgba(184, 203, 236, 0.5);
     backdrop-filter: blur(5px);
     /* background: radial-gradient(circle at 50% 50%, #b8cbec 0%, #d8deea 40%); */
