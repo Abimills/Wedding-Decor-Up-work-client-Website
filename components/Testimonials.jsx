@@ -14,7 +14,9 @@ const Testimonials = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await axios.get(" http://localhost:3000/api/comment");
+      const res = await axios.get(
+        " https://qendel-decor.vercel.app/api/comment"
+      );
       setData(
         res.data?.comments
           ?.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
