@@ -130,8 +130,10 @@
 /* #fee9f0 */ 
 /* #f1f3f4  */
 /* #c8e3f4 */ #943c62;
+  text-transform: uppercase;
 }
 .qendel span {
+  text-transform: uppercase;
   color: #b8cbec;
 }
 
