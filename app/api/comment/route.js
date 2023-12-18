@@ -1,7 +1,6 @@
 import connectMongoDB from "@/libs/mongodb";
 import Comments from "@/models/comment";
 import { NextResponse } from "next/server";
-
 export async function GET(req, res) {
   await connectMongoDB();
   const comments = await Comments.find();
