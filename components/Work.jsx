@@ -2,7 +2,7 @@
 import { useState } from "react";
 import styles from "../styles/work.module.css";
 import { useRouter } from "next/navigation";
-
+import { RiVerifiedBadgeFill } from "react-icons/ri";
 const workData = [
   {
     id: 1,
@@ -35,7 +35,11 @@ const Work = () => {
   };
   return (
     <div className={styles.workContainer}>
-      <h1 className={styles.workHeader}>WE WORK EveryWhere</h1>
+      <h1 className={styles.workHeader}>
+        {" "}
+        <RiVerifiedBadgeFill className={styles.badgeIcon} /> WE WORK EveryWhere{" "}
+        <RiVerifiedBadgeFill className={styles.badgeIcon} />
+      </h1>
       <p className={styles.workPara}>
         Whether you prefer home , hotel or even audiom decoration , we do it
         all.

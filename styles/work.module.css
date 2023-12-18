@@ -19,21 +19,32 @@
   /* background-color: white; */
   margin-top: 3rem;
   /* margin: 1rem; */
-  padding: 20px;
+  /* padding: 20px; */
   margin-bottom: 3rem;
   /* background: radial-gradient(circle at 50% 50%, #b8cbec 0%, #dee7f7 40%); */
 }
 .workHeader {
+  width: 100%;
   font-size: 2.5rem;
   color: black;
   font-family: "Lato", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-transform: uppercase;
   text-align: center;
+  gap: 1rem;
   font-family: "Roboto", sans-serif;
-  font-weight: 100;
+  font-family: "Sacramento", cursive;
+  font-family: "Water Brush", cursive;
+  font-weight: 500;
   letter-spacing: 7px;
+  color: #3a4964;
   margin: 1rem;
   margin-bottom: 3rem;
+}
+.badgeIcon {
+  font-size: 1.8rem;
 }
 .workPara {
   font-size: 0.9rem;
@@ -44,12 +55,14 @@
   font-family: "Roboto", sans-serif;
   /* font-weight: 100; */
   letter-spacing: 2px;
-  margin-bottom: 6rem;
-  margin: 2rem 3rem;
+  width: 100%;
+  color: rgb(120, 142, 155);
+  margin-bottom: 3rem;
+  margin: 1rem 3rem;
 }
 .card {
   width: 30%;
-  height: 400px;
+  min-height: 400px;
   background-image: url("/amazing.jpg");
   background-size: contain;
   border: 1px solid #b8cbec;
@@ -62,7 +75,7 @@
 }
 .cards {
   width: 100%;
-  height: 380px;
+  min-height: 380px;
   display: flex;
   align-items: center;
   justify-content: space-between;
