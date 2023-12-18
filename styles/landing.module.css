@@ -61,7 +61,7 @@
 .rightSide {
   width: 40%;
 
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .leftSide {
@@ -126,9 +126,9 @@
   color: #b8cbec;
 }
 .activeContainer {
-  width: 80%;
-  padding: 10px;
-  margin-top: -2rem;
+  width: 100%;
+  padding: 10px 15px;
+  margin-top: -4rem;
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -140,9 +140,11 @@
   height: 6px;
   border-radius: 30px;
   background-color: black;
+  margin-left: 0.5rem;
   transition: all 0.5s ease-in-out;
 }
 .passive {
+  margin-left: 0.5rem;
   content: none;
   width: 6px;
   height: 6px;
