@@ -55,7 +55,7 @@
 .partContainer p {
   text-transform: capitalize;
   color: #b8cbec;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   cursor: pointer;
 }
 .line {
@@ -74,7 +74,7 @@
   cursor: pointer;
 }
 .facebook {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   margin: 1rem;
   color: #b8cbec;
 }
@@ -116,5 +116,4 @@
     font-size: 0.7rem;
     /* font-family: 'Outfit', sans-serif; */
   }
-  
 }
