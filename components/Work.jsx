@@ -6,11 +6,12 @@ import { RiVerifiedBadgeFill } from "react-icons/ri";
 const workData = [
   {
     id: 1,
-    title: "Home",
-    img: "/pegy.png",
+    title: "Venues",
+    img: "/wedding1.png",
     description:
-      "Transform your home into a personalized party haven! Our dedicated team is passionate about bringing your unique vision to life.",
+      "Transform venues into extraordinary spaces! Our decoration expertise brings any event to life, ensuring your chosen venue is adorned with unique and captivating elements",
   },
+
   {
     id: 2,
     title: "Hotel",
@@ -20,10 +21,10 @@ const workData = [
   },
   {
     id: 3,
-    title: "Venues",
-    img: "/wedding.png",
+    title: "Home",
+    img: "/pegy.png",
     description:
-      "Transform venues into extraordinary spaces! Our decoration expertise brings any event to life, ensuring your chosen venue is adorned with unique and captivating elements",
+      "Transform your home into a personalized party haven! Our dedicated team is passionate about bringing your unique vision to life.",
   },
 ];
 const Work = () => {
