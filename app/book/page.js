@@ -26,7 +26,7 @@ const Book = () => {
     const inputDate = new Date(date);
 
     const year = inputDate.getFullYear();
-    const month = (inputDate.getMonth() + 1).toString().padStart(2, "0"); 
+    const month = (inputDate.getMonth() + 1).toString().padStart(2, "0");
     const day = inputDate.getDate().toString().padStart(2, "0");
 
     const formattedDate = `${month}/${day}/${year}`;
@@ -56,7 +56,7 @@ const Book = () => {
       selectedDate
     ) {
       setLoading(true);
-      const res = await axios.post("http://localhost:3000/api/book", {
+      const res = await axios.post("https://qendel-decor.vercel.app/api/book", {
         ...data,
       });
       if (res.data) {

@@ -11,6 +11,7 @@ import commentData from "./commentData";
 const Testimonials = () => {
   const router = useRouter();
   const [data, setData] = useState([]);
+  const [loading, setLoading] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
