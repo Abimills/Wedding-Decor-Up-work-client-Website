@@ -46,7 +46,7 @@
 }
 .aboutPara {
   width: 25%;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
   color: #7084a5;
   line-height: 22px;
@@ -62,7 +62,12 @@
 .servicesText {
   padding: 10px;
   background-color: #b8cbec;
-
+  font-size: 0.85rem;
+  font-family: "Outfit", sans-serif;
+  color: rgb(69, 68, 68);
+}
+.ServicesHeader {
+  font-size: 0.9rem;
   font-family: "Outfit", sans-serif;
   color: rgb(69, 68, 68);
 }
@@ -84,8 +89,8 @@
   gap: 1rem;
 }
 .picsBg {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,7 +104,7 @@
   background-color: black;
 }
 .modern {
-  font-size: 5rem;
+  font-size: 4.5rem;
   letter-spacing: 20px;
   margin-top: -9rem;
   padding: 10px;
@@ -110,12 +115,12 @@
   color: #943c62;
 }
 .traditional {
-  font-size: 10.5rem;
+  font-size: 8.5rem;
   letter-spacing: 20px;
   color: #b8cbec;
 }
 .qendel {
-  font-size: 5.5rem;
+  font-size: 4.5rem;
   letter-spacing: 20px;
   font-family: "Water Brush", cursive;
   font-family: "Outfit", sans-serif;
