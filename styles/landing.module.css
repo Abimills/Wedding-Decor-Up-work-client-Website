@@ -23,12 +23,12 @@
   /* color:orange; */
 }
 .mediaSide {
-  width: 200px;
+  width: 180px;
   height: 550px;
   background-image: url("/side-color.png");
   background-repeat: no-repeat;
   background-size: contain;
-  margin-top: 6rem;
+  margin-top: 4rem;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -37,7 +37,7 @@
 }
 .mediaSide * {
   color: #b8cbec;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-left: 2.4rem;
   transition: all 0.1s ease-in;
   cursor: pointer;
@@ -61,16 +61,16 @@
 .rightSide {
   width: 40%;
 
-  margin-top: 7rem;
+  margin-top: 4rem;
 }
 
 .leftSide {
   width: 40%;
-  margin-top: 2rem;
+  margin-top: 0rem;
   margin-left: 2rem;
 }
 .beautyImage {
-  width: 100%;
+  width: 80%;
   height: 450px;
   position: absolute;
   object-fit: contain;
@@ -89,14 +89,15 @@
   transition: all 0.4s ease-in-out;
 }
 .heroHeader {
-  margin: 2rem 0;
-  font-size: 2rem;
+  margin: 0rem 0;
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
   letter-spacing: 3px;
   font-family: "Dosis", sans-serif;
 }
 .heroPara {
   color: rgb(107, 106, 106);
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   margin: 0 0 2rem 0;
   max-width: 80%;
   font-family: "Caveat", cursive;
